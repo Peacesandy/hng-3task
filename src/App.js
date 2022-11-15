@@ -1,25 +1,19 @@
-import './index.css';
+import React from 'react';
+import Navbar from './components/Navbar';
+import {Routes, Route} from 'react-router-dom';
+import Home from '../src/pages/Home'
+import Placetostay from '../src/pages/Place';
 
-// components
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Main from './layout/Main'
-import Card from './layout/Card'
 
-//React router Dom
-import { Routes, Route, } from "react-router-dom";
-import Card from './layout/Card';
-
-//Rendering in App.js
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div className="App ">
       <Routes>
-        <Route path='/' element={<Main/>} />
-        <Route path='/main' element={<Card />} />
+        <Route path='/' element={<Home/>} />
+        <Route path='/places' element={<Placetostay/>} />
+
+        Placetostay
       </Routes>
-      <Footer/>
     </div>
   );
 }

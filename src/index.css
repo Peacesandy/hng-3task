@@ -1,13 +1,325 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Red Rose', cursive;
+    
+}
+  /*General Syling for header component*/
+  nav{
+    display: flex;
+    margin-top: 25px;
+ 
+}
+.navLinks > a{
+    flex: 1;
+    color: #434343;
+    text-decoration: none;
+    text-align: center;
+}
+.btn >button{
+    height: 42px;
+    width: 170px;
+    background-color: #A02279;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /*General Syling for hero component*/
+  .hero-container{
+    margin-bottom: 60px;
+  }
+  .hero-text>p{
+    font-size: 22px;
+  }
+  .colo{
+    color: #A02279;
+}
+input::placeholder{
+    color: #B8B8B8;
+    padding-left: 15px;
+}
+.search{
+    border: 1px solid #B8B8B8;
+    border-radius: 8px 0px 0px 8px;
+    height: 45px;
+    width: 60%;
+}
+.searchbtn{
+    background-color: #A02279;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    height: 44px;
+    width: 30%;
+    color: #FFFFFF;
+    
+}
+
+ /*General Syling for Brands component*/
+ .brands{
+    background-color: #A02279;
+    display: flex;
+   
+ }
+ .brand{
+    padding-top: 10px;
+ }
+  /*General Syling for main component*/
+  .adv{
+    text-align: center;
+    font-size: 48px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    font-weight: 700;
+    color: black;
+  }
+  .rowCont{
+    margin: auto;
+    width: 80%;
+  }
+  
+  .cap{
+    /*
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    */
+    font-size: 12px;
+  }
+  
+  .cont>div>img{
+    height: 265px;
+    width: 260px;
+  }
+  .cont{
+    text-align: center;
+    border: 1px solid #D7D7D7;
+    border-radius: 15px;
+    
+    
+  }
+ 
+   /*General Syling for bottom component*/
+  .bottom{
+    background-color: #A02279;
+  }
+  .bottomCont{
+    margin: auto;
+    width: 80%;
+  }
+  .nft-text{
+    color: #FFFFFF;
+  }
+  .nft-text>h2{
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .nft-text>p{
+    font-size: 18px;
+  }
+  .bottom-btn{
+    border: none;
+    background-color: #FFFFFF;
+    color: #A02279;
+    border-radius: 8px;
+    height: 48px;
+    width: 40%;
+  }
+  /*General Syling for footer component*/
+  .footer{
+    background-color: #1D1D1E;
+    color: #FFFFFF;
+  }
+  .footerCont{
+    margin: auto;
+    width: 80%;
+  }
+  .icons{
+    gap: 40px;
+  }
+  .footer-links{
+    padding-left: 100px;
+    padding-top: 20px;
+  }
+  .footerLogo{
+    padding-top: 20px;
+  }
+  .footer-links >a{
+    text-decoration: none;
+    color: #F1F3F9;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+  }
+  .copyright{
+    font-size: 16px;
+    color: #F7F7F7;
+    
+  }
+@media only screen and (min-width: 769px){
+      /*Big screen Syling for header component*/
+    .headerContainer{
+        margin-bottom: 70px;
+    
+    
+    }
+    nav{
+        display: flex;
+        margin-top: 25px;
+     
+    }
+    .logoDiv{
+        flex: 1;
+        margin-left: 50px;
+       
+    }
+    .navLinks{
+        flex: 2;
+        display: flex;
+        margin-top: 10px;
+        margin: auto;
+        
+    }
+    .btn{
+        flex: 1;
+        text-align: right;
+        margin-right: 50px;
+    
+        
+    }
+
+    .navLinks > a{
+        flex: 1;
+        color: #434343;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    /*Big screen Syling for hero component*/
+    .hero-container{
+        display: flex;
+        gap: 100px;
+    }
+    .hero-container >div{
+        flex: 1;
+    }
+
+    .hero-text>h1{
+        margin-bottom: 30px;
+    }
+    .hero-text>p{
+        margin-bottom: 30px;
+    }
+  
+
+    .hero-img{
+        margin-right: -40px;
+    }
+    .hero-img >img{
+        height: 300px;
+        width: 80%;
+        
+    }
+
+    
+    /*Big screen Syling for brands component*/
+    
+    .brand{
+        width: 33.3%;
+        text-align: center;
+        height: 70px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .headerContainer{
+        margin-bottom: 40px;
+    
+    
+    }
+    nav{
+        width: 100vw
+        
+    }
+    .logoDiv{
+        width: 30%;
+        margin-top: 12px;
+    }
+    .logoDiv>img{
+       width: 100%;
+       
+    }
+    .navLinks{
+        width: 60%;
+        display: flex;
+        
+        margin: auto;
+        
+    }
+    .btn{
+        width: 20%;
+    
+        
+    }
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .hero-img{
+        margin: auto;
+    }
+    /*brands component styling*/
+    .brands{
+        flex-direction: column;
+    }
+    .brand{
+        padding-top: 30px;
+        width: 100%;
+        text-align: center;
+        height: 100px;
+    }
+
+    .footerLogo{
+        margin-bottom: 50px;
+    }
+    .footer-links{
+        margin-left: -50px;
+        margin-top: 30px;
+    }
+   
+}
+@media only screen and (max-width: 600px){
+    nav{
+        flex-direction: column;
+        
+    }
+    .logoDiv{
+        margin-left: 10px;
+        margin-bottom:20px ;
+    }
+    .navLinks{
+        width: 100%;
+        display: flex;
+        
+        margin: auto;
+        margin-bottom:20px ;
+        padding-right: 5px;
+        padding-left: 5px;
+        
+    }
+    .btn{
+        margin: auto;
+        width: 100%;
+
+    }
+    .btn>button{
+        margin: auto;
+        width: 70%;
+    }
+    .hero-img >img{
+        margin: auto;
+        width: 90%;
+        
+    }
 }
