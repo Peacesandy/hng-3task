@@ -121,7 +121,7 @@ input::placeholder{
     height: 48px;
     width: 40%;
   }
-  /*General Syling for footer component*/
+  
   .footer{
     background-color: #1D1D1E;
     color: #FFFFFF;
@@ -153,7 +153,7 @@ input::placeholder{
     
   }
 @media only screen and (min-width: 769px){
-      /*Big screen Syling for header component*/
+      
     .headerContainer{
         margin-bottom: 70px;
     
