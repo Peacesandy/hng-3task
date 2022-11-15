@@ -191,7 +191,7 @@ input::placeholder{
         text-align: center;
     }
     
-    /*Big screen Syling for hero component*/
+    
     .hero-container{
         display: flex;
         gap: 100px;
@@ -218,7 +218,7 @@ input::placeholder{
     }
 
     
-    /*Big screen Syling for brands component*/
+    
     
     .brand{
         width: 33.3%;
@@ -264,7 +264,7 @@ input::placeholder{
     .hero-img{
         margin: auto;
     }
-    /*brands component styling*/
+    
     .brands{
         flex-direction: column;
     }
