@@ -33,7 +33,7 @@ class Main extends Component{
                                     <p className="p2">available for 2weeks stay</p>
                                 </div>
                                 <div className="stars align-self-start ">
-                                    <img src={star} className="img-fluid"/>
+                                    <img src={star} className="img-fluid" alt="location two"/>
                                 </div>
                         
                             </div>
@@ -55,7 +55,7 @@ class Main extends Component{
                                     <p className="p2">available for 2weeks stay</p>
                                 </div>
                                 <div className="stars align-self-start ">
-                                    <img src={star} className="img-fluid"/>
+                                    <img src={star} className="img-fluid" alt="location 3"/>
                                 </div>
                         
                             </div>
@@ -77,7 +77,7 @@ class Main extends Component{
                                     <p className="p2">available for 2weeks stay</p>
                                 </div>
                                 <div className="stars align-self-start ">
-                                    <img src={star} className="img-fluid"/>
+                                    <img src={star} className="img-fluid" alt="location 4"/>
                                 </div>
                         
                             </div>
@@ -99,7 +99,7 @@ class Main extends Component{
                                     <p className="p2">available for 2weeks stay</p>
                                 </div>
                                 <div className="stars align-self-start ">
-                                    <img src={star} className="img-fluid"/>
+                                    <img src={star} className="img-fluid" alt="location 5"/>
                                 </div>
                         
                             </div>
@@ -121,7 +121,7 @@ class Main extends Component{
                                     <p className="p2">available for 2weeks stay</p>
                                 </div>
                                 <div className="stars align-self-start ">
-                                    <img src={star} className="img-fluid"/>
+                                    <img src={star} className="img-fluid" alt="location 6"/>
                                 </div>
                         
                             </div>
@@ -143,7 +143,7 @@ class Main extends Component{
                                     <p className="p2">available for 2weeks stay</p>
                                 </div>
                                 <div className="stars align-self-start ">
-                                    <img src={star} className="img-fluid"/>
+                                    <img src={star} className="img-fluid" alt="location 7"/>
                                 </div>
                         
                             </div>
@@ -165,7 +165,7 @@ class Main extends Component{
                                     <p className="p2">available for 2weeks stay</p>
                                 </div>
                                 <div className="stars align-self-start ">
-                                    <img src={star} className="img-fluid"/>
+                                    <img src={star} className="img-fluid" alt="location 8"/>
                                 </div>
                         
                             </div>
@@ -187,7 +187,7 @@ class Main extends Component{
                                     <p className="p2">available for 2weeks stay</p>
                                 </div>
                                 <div className="stars align-self-start ">
-                                    <img src={star} className="img-fluid"/>
+                                    <img src={star} className="img-fluid" alt="component 1"/>
                                 </div>
                         
                             </div>

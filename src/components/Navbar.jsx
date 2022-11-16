@@ -5,9 +5,9 @@ import logo from '../Images/logo.png';
 import '../index.css';
 
 class Navbar extends Component{
-    constructor(props){
-        super(props);
-    }
+    //constructor(props){
+       // super(props);
+    //}
     render(){
         return <div className="headerContainer ">
             <nav>
@@ -17,8 +17,8 @@ class Navbar extends Component{
                 <div className="navLinks">
                     <Link to="/">Home</Link>
                     <Link to="places">Place to stay</Link>
-                    <a href="#">NFTs</a>
-                    <a href="#">Community</a>
+                    <a href="https://www.w3schools.com">NFTs</a>
+                    <a href="https://www.w3schools.com">Community</a>
                 </div>
                 <div className="btn">
                     <button>Connect wallet</button>

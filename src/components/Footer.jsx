@@ -24,25 +24,25 @@ class Footer extends Component{
                 
                 <div className="col-md-3 col-sm-4 d-flex flex-column footer-links ">
                     <h5>Community</h5>
-                    <a href="#">NFT</a>
-                    <a href="#">Tokens</a>
-                    <a href="#">Landlords</a>
-                    <a href="#">Discord</a>
+                    <a href="https://www.w3schools.com">NFT</a>
+                    <a href="https://www.w3schools.com">Tokens</a>
+                    <a href="https://www.w3schools.com">Landlords</a>
+                    <a href="https://www.w3schools.com">Discord</a>
 
                 </div>
                 <div className="col-md-3 col-sm-4 d-flex flex-column footer-links">
                     <h5>Places</h5>
-                    <a href="#">Castle</a>
-                    <a href="#">Farm</a>
-                    <a href="#">Beach</a>
-                    <a href="#">Learn more</a>
+                    <a href="https://www.w3schools.com">Castle</a>
+                    <a href="https://www.w3schools.com">Farm</a>
+                    <a href="https://www.w3schools.com">Beach</a>
+                    <a href="https://www.w3schools.com">Learn more</a>
                 </div>
                 <div className="col-md-3 col-sm-4 d-flex flex-column footer-links">
                     <h5>About us</h5>
-                    <a href="#">Road map</a>
-                    <a href="#">Creators</a>
-                    <a href="#">Career</a>
-                    <a href="#">Contact us</a>
+                    <a href="https://www.w3schools.com">Road map</a>
+                    <a href="https://www.w3schools.com">Creators</a>
+                    <a href="https://www.w3schools.com">Career</a>
+                    <a href="https://www.w3schools.com">Contact us</a>
                 </div>
             </div>
             <div className="row ">
