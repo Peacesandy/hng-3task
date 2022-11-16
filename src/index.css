@@ -1,30 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap');
-body{
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Red Rose', cursive;
-    
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Red Rose', cursive !important;
+  overflow-x: hidden;
 }
+.redirect{
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 20px;
+max-width: 470px;
+height: 68px;
+/* DTC Light Gray (BG) */
+background: #F8F9FA;
+/* DTC Mid Gray */
+border: 1px solid #CFD8DC;
+border-radius: 12px;
+}
+.btn-purple{
+  background: #a02279 !important;
+  border: #a02279 !important;
+}
+.bg-purple{
+  background: #a02279 !important;
+}
+.text-purple{
+  color: #843FE8 !important;
+}
+.bg-menu{
+  background: linear-gradient(91.47deg, #DC3E88 18.25%, #B840AE 43.34%, #843FE8 78.18%) !important;
+}
+.text-dark{
+  font-size: 20px !important;color: #434343 !important;
+  width: 125px;height: 25px;line-height: 25px;
+}
+
   
-  nav{
-    display: flex;
-    margin-top: 25px;
  
-}
-.navLinks > a{
-    flex: 1;
-    color: #434343;
-    text-decoration: none;
-    text-align: center;
-}
-.btn >button{
-    height: 42px;
-    width: 170px;
-    background-color: #A02279;
-    border-radius: 10px;
-    border: none;
-    color: #FFFFFF;
-}
 
   
   .hero-container{
